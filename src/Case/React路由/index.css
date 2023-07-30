@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cinema {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+/* 所有a标签取消默认样式 */
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+/* 底部导航栏 */
+.teb {
+  width: 100vw;
+  height: 6vh;
+  background: rgb(255, 255, 255);
+  border-top: 1px solid #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.tebcent {
+  height: 100%;
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  justify-content: space-around;
+  list-style: none;
+}
+.active {
+  color: red;
+  text-decoration: none;
+}
+/* 组件区域 */
+.component {
+  width: 100%;
+  max-height: 92vh;
+  overflow: scroll;
+  padding-bottom: 2vh;
+  /* background: rgb(255, 43, 43); */
+}

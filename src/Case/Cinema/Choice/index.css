@@ -1,0 +1,65 @@
+.nav {
+  width: 100%;
+  height: 10vh;
+  position: fixed;
+  background: rgb(242, 239, 244);
+}
+/* 搜索 */
+.search {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+}
+.search_ipt {
+  width: 210px;
+  height: 22px;
+  border: none;
+  padding-left: 8px;
+  background: rgb(244, 244, 244);
+}
+.search_btn {
+  width: 44px;
+  height: 25px;
+}
+/* 选项 */
+.option {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid #c5c1c1;
+  background-color: rgb(255, 255, 255);
+}
+/* 数据展示 */
+.content {
+  padding-top: 9.2vh;
+}
+.list {
+  height: 66px;
+  display: flex;
+  margin: 5px 5px;
+  padding: 4px 8px;
+  align-items: center;
+  /* border-radius: 10px; */
+  border-top: 1px solid #c5c1c1;
+  justify-content: space-evenly;
+}
+.infor {
+  width: 70vw;
+}
+.infor > dl > dd {
+  width: 260px;
+  margin-top: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.price > dl > dd {
+  margin-top: 8px;
+  color: #b1b0b0;
+}
+.price > dl > dt {
+  text-align: center;
+  color: rgb(255, 72, 0);
+}
